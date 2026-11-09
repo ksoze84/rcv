@@ -1,0 +1,24 @@
+# Archivos y secretos de entorno
+.env
+.env.*
+!.env.example
+
+# Dependencias y compilados
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Directorio de estado local
+.local/
+
+# Reportes y artefactos de pruebas
+test-results/
+playwright-report/
+coverage/
+
+# Perfiles, descargas y trazas temporales de navegacion
+profiles/
+downloads/
+traces/
+*.log
